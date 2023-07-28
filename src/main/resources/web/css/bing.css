@@ -9,17 +9,14 @@ body {
   width: 100%; /* Set the page width */
   margin: 0 auto; /* Center the div */
 }
-.sticky {
+.imgside {
   position: fixed; /* Set to fixed position */
   top: 50%; /* Set to top 50% */
   transform: translateY(-50%); /* Set to vertical center alignment */
 }
 
 /* Adjust the width and height of the images */
-imgside {
-  width: 200px;
-  height: auto;
-}
+
 
 /* Position the images */
 imgside:nth-child(1) { /* Select the first img element */
