@@ -5,6 +5,30 @@ body {
     margin: 0;
     padding: 0;
 }
+#container {
+  width: 100%; /* Set the page width */
+  margin: 0 auto; /* Center the div */
+}
+.sticky {
+  position: fixed; /* Set to fixed position */
+  top: 50%; /* Set to top 50% */
+  transform: translateY(-50%); /* Set to vertical center alignment */
+}
+
+/* Adjust the width and height of the images */
+imgside {
+  width: 200px;
+  height: auto;
+}
+
+/* Position the images */
+imgside:nth-child(1) { /* Select the first img element */
+  left: 10px; /* Set to left 10px */
+}
+
+imgside:nth-child(3) { /* Select the third img element */
+  right: 10px; /* Set to right 10px */
+}
 
 #head {
     position: fixed;
