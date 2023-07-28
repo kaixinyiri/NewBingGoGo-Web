@@ -23,7 +23,7 @@ imgside:nth-child(1) { /* Select the first img element */
   left: 10px; /* Set to left 10px */
 }
 
-imgside:nth-child(3) { /* Select the third img element */
+imgside:nth-child(2) { /* Select the third img element */
   right: 10px; /* Set to right 10px */
 }
 
