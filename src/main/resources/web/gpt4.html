@@ -1,0 +1,80 @@
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            gap: 15px;
+        }
+
+        .green {
+            background-color: black;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .blue {
+            background-color: white;
+            color: black;
+            font-size: 30px;
+            text-align: center;
+            flex: 1;
+        }
+
+        .black {
+            color: blue;
+            font-size: 20px;
+        }
+
+        .link {
+            color: blue;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+           .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .grid-item {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .orange {
+        background-color: orange;
+        color: black;
+    }
+
+    .purple {
+        background-color: purple;
+        color: white;
+    }
+
+        .column {
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="green">微软官方GPT4</div>
+        <div class="blue">国内直连，自助服务：19.9元<br><span class="black">国内直连，远程服务：49.9元</span><br><span class="black">免费GPT4计划</span></div>
+        <div class="grid">
+    <div class="grid-item orange">10分钟 – 完成GPT-4任务，最长不超过500分钟</div>
+    <div class="grid-item purple">GPT-4服务：数据清洗，数据预处理，数据分析，数据可视化，数据挖掘</div>
+    <div class="grid-item orange">20分钟 – 完成GPT-4任务，最长不超过1000分钟</div>
+    <div class="grid-item purple">GPT-4服务：文本生成，文本摘要，文本翻译，文本校对，文本分类</div>
+    <div class="grid-item orange">30分钟 – 完成GPT-4任务，最长不超过1500分钟</div>
+    <div class="grid-item purple">GPT-4服务：图像生成，图像编辑，图像识别，图像风格转换，图像分类</div>
+</div
+    </div>
+</body>
+</html>
