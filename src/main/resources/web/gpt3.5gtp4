@@ -1,0 +1,121 @@
+<html>
+<head>
+    <style>
+          .header1 {
+        background-color: #4Abdac;
+        color: black ;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+            .header2 {
+        background-color: white;
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+                 .header3 {
+        background-color: white;
+        color: red;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+                .header4 {
+        background-color: white;
+        color: red;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+                  .header5 {
+        background-color: #062F4F;
+        color: white;
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+               .header2 {
+        background-color: white;
+        color: black;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+        .container {
+             display: flex;
+            flex-direction: column;
+            height: 100%;
+            gap: 15px;
+        }
+
+        .green {
+            background-color: black;
+            color: white;
+            font-size: 80px;
+            text-align: center;
+            flex: 0.1;
+        }
+
+        .blue {
+            background-color: white;
+            color: red;
+            font-size: 45px;
+            text-align: center;
+            flex: 0.1;
+        }
+
+        .black {
+            color: blue;
+            font-size: 30px;
+        }
+
+        .link {
+            color: blue;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+           .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .grid-item {
+        font-size: 35px;
+        padding: 10px;
+    }
+
+    .orange {
+        background-color: orange;
+        color: black;
+    }
+
+    .purple {
+        background-color: purple;
+        color: white;
+    }
+
+        .column {
+            width: 50%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      
+        <div class="grid">
+    <div class="grid-item orange">1个赞兑换一天初级版GPT4会员，最多兑换365天</div>
+    <div class="grid-item purple">GPT4初级版：可以聊天，每次会话可进行10轮对话，不限会话次数，不限流量</div>
+    <div class="grid-item orange">10个赞兑换一天普通版GPT4会员，最多兑换365天</div>
+    <div class="grid-item purple">GPT4普通版：可以聊天，画图，每次会话可进行30轮对话，不限会话次数，不限流量</div>
+    <div class="grid-item orange">500个赞兑换一月全功能版GPT4会员，最多兑换12个月</div>
+    <div class="grid-item purple">全功能版：跟官方完全一致，可上传图片，带聊天记录。</div>
+</div
+    </div>
+</body>
+</html>
