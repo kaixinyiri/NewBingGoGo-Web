@@ -43,12 +43,30 @@
         text-align: center;
         margin-bottom: 10px;
     }
-        .container {
-             display: flex;
-            flex-direction: column;
-            height: 100%;
-            gap: 15px;
-        }
+@media screen and (max-width: 768px) {
+  /* 这里是手机端的样式 */
+  .container {
+    width: 100%; /* 设置宽度为100% */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* 这里是电脑端的样式 */
+  .container {
+    max-width: 1400px; /* 设置最大宽度为1400px */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 15px;
+  }
+}
+
+        
+       
 
         .green {
             background-color: black;
