@@ -586,21 +586,14 @@ function inputTextByImage(image) {
       
     </div>
 	    <div style="text-align: center;">
-		     <a href="./gpt3.5gtp4.html" target="_blank">		
-             	<img src="./img/df_gpt1.png" alt="区别说明"  style="width: 88%; margin: 10px 0;text-align: center; display: inline-block; vertical-align:middle;">
-		</a>    
-		    <p style="font-size: 20px; color: red;" >扫码联系站长免费领取初级版GPT4</p> 
-		     <p style="font-size: 20px;" >独立3.5账号请联系站长，19.9一年</p> 
-		<p style="font-size: 20px;" >下方有三个免费GPT3.5账号，<a href="./help.html">使用帮助</a></p>  
-          
-		 
-		
-	     <img src="./img/gptac1png.png" alt="报错说明"  style="width: 88%; display: inline-block; vertical-align:middle;">
+		    
+		    <p style="font-size: 20px; color: red;" >为了更好适应大家需求，现关闭GPT3.5帐号号，全部升级GPT4.0</p> 
+		     <p style="font-size: 20px;" >如有需要独立3.5账号请联系站长，19.9一年</p> 
               
 		<div style="text-align: center; display: inline-block;  margin: 20px 0; width: 88%;">	
-		  <button class="copy-button">复制密码1</button>
-		  <button class="copy-button">复制密码2</button>
-		  <button class="copy-button">复制密码3</button>
+		  <button class="copy-button">网址1</button>
+		  <button class="copy-button">网址2</button>
+		  <button class="copy-button">网址3/button>
 		</div>   
 		<div style="text-align: center; display: inline-block;   margin: 0px auto 20px auto;  width: 88%;" >	
 		  <button class="copy-button">复制密码4</button>
@@ -742,20 +735,33 @@ for (let i = 0; i < buttons.length; i++) {
     document.body.appendChild(tempInput);
     
 
-   // 判断 i 的值是否小于 3
-    if (i < 3) {
-    tempInput.select();
-    document.execCommand("copy");
-      alert("密码复制成功！点击确定进行网址跳转！");
-      console.log("复制了内容");
-      document.body.removeChild(tempInput);
-     // 跳转到另外一个网址，假设是 https://chatok.nwtbing.asia
-      window.location.href = "https://chatok.nwtbing.asia";
-    } else {
-      alert("该账号目前未开放，请选择其他账号！");
-      console.log("未开放的按钮");
-      document.body.removeChild(tempInput);
-    }
+   // 判断 i 的值并访问不同的网址
+switch (i) {
+  case 0:
+   
+    alert("每个网址每日限1万次调用，用完关闭，如有需求请联系站长部署私人全功能网址");
+    
+    // 跳转到第一个网址，假设是 https://chatok.nwtbing.asia
+    window.location.href = "https://him.nwtbing.asia";
+    break;
+  case 1:   
+    alert("每个网址每日限1万次调用，用完关闭，如有需求请联系站长部署私人全功能网址");   
+    // 跳转到第二个网址，假设是 https://you.nwtbing.asia
+    window.location.href = "https://you.nwtbing.asia";
+    break;
+  case 2:
+    
+    alert("每个网址每日限1万次调用，用完关闭，如有需求请联系站长部署私人全功能网址");
+    
+    // 跳转到第三个网址，假设是 https://me.nwtbing.asia
+    window.location.href = "https://me.nwtbing.asia";
+    break;
+  default:
+    alert("该账号目前未开放，请选择其他账号！");
+    console.log("未开放的按钮");
+    document.body.removeChild(tempInput);
+}
+
   });
 }
 		
